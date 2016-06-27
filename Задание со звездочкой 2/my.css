@@ -55,17 +55,14 @@ a.navbar-brand {
 	height: 100%;
 	margin: 30px 50px;
 }
- 
-.con > .row > .col-md-3 {
-	margin-right: 20px;
+.con div{
+	float: left;
 }
 .right_b {
 	width: 215px;
 	height: 100%;
 /*	background: black;*/
 	float: right;
-	position: absolute;
-	right: 50px;	
 }
 .right_b img {
 	margin-bottom: 10px;
@@ -124,7 +121,6 @@ a.navbar-brand {
 .art4 {
 	width: 444px;
 	background: blue;
-	margin-left: 15px;
 }
 .art5 {
 	width: 215px;
