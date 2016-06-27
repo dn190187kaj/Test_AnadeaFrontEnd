@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Задание3 </title>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+	<div id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<h6>Kohl Corp. Vacation planning</h6>
+				</div>
+				<div class="col-md-4"></div>
+				<div class="col-md-4 nav-left">
+					<div>Hi, Matthew</div>
+					<div>My info</div>
+					<div>Help</div>
+					<div>
+						<i class="glyphicon glyphicon-eject"></i><span>Logout</span>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+
+
+	<div id="nav-menu">
+		<div class="container">
+			<div class="row">
+					<ul>
+						<li><a href="#">Overview</a></li>
+						<li><a href="#">Time Offs</a></li>
+						<li><a href="#">Purchases</a></li>
+						<li><a href="#">Employees</a></li>
+						<li><a href="#">Company settings</a></li>
+					</ul>
+			</div>
+		</div>
+	</div>
+
+	<div id="content">
+		<div id="overview">Overview</div>
+		<div id="overview_content">
+
+
+			<div class="note row">
+				<div class="ava col-md-2 open_ava"><img class="thumbnail" src="img/ava1.png" alt="ava1"></div>
+				<div class="comment col-md-10">
+					<div>
+						<a class="open_ava" href="#">Christina Frerichs</a> asks for time off.
+						<a href="#"><span class="icon_calendar">May 15 - 20</span></a>
+						<span class="text">, 5 days. Sickness</span>
+						<span class="pending">Pending</span>
+					</div>
+					<div>
+						<span class="text">I need some rest -</span> <a href="#">Shona L. Brown</a> 1 hour ago
+						<span class="answer"><i class="icon_answer">Answer</i></span>
+					</div>
+				</div>
+			</div>
+
+			<!-- Всплывающее окно -->
+			<div class="open display_n">
+				<div class="row">
+					<div class="col-md-2 close_ava">
+						<img class="thumbnail close_ava" src="img/ava1.png" alt="ava1">
+					</div>
+					<div class="col-md-offset-2 col-md-8">
+						<div>
+							<a class="close_ava" href="#">Christina Frerichs</a>
+							<p>manager</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<p>10 days left	</p>
+						<p>13 days pending</p>
+						<p>3 days rejected</p>
+					</div>
+					<div class="col-md-6">
+						<p>3/5</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<p><a href="#">last activity 12 days ago</a></p>
+						<p><a href="#">users time off</a></p>
+						<p><a href="#">todo list</a></p>
+					</div>
+				</div>
+
+			</div>
+
+
+
+			<div class="note row">
+				<div class="ava col-md-2"><img class="thumbnail" src="img/ava2.png" alt="ava1"></div>
+				<div class="comment col-md-10">
+					<div>
+						<a href="#">Daniele Longo</a> asks for time off.
+						<a href="#"><span class="icon_calendar"> May 10 - 17</span></a>
+						<span class="text">, 5 days. Holiday</span>
+						<span class="pending">Pending</span>
+					</div>
+					<div>
+						<span class="text">I need some rest -</span> <a href="#">Shona L. Brown</a> 1 hour ago
+						<span class="answer"><i class="icon_answer">Answer</i></span>
+					</div>
+				</div>
+			</div>
+
+			<!-- 1-й коментарий -->
+		</div>
+		<div id="active_stories">Active stories</div>
+		<div class="active_stories_content">
+			<div class="note row story">
+				<div class="ava col-md-2"><img class="thumbnail" src="img/ava2.png" alt="ava1"></div>
+				<div class="comment col-md-10">
+					<div>
+						<a href="#">Daniele Longo</a> asks for new purchase.
+						<span class="text">Notebook, £1,000</span>
+						<span class="bought">Bought</span>
+					</div>
+					<div>
+						<span class="com_hide">3 comments</span>
+						<p><span class="text">Done -</span> <a href="#">Shona L. Brown</a> 1 hour ago</p>
+					</div>
+				</div>
+			</div>
+
+			<!-- 2-ой коментарий -->
+			<div class="note row story">
+				<div class="ava col-md-2"><img class="thumbnail" src="img/ava3.png" alt="ava1"></div>
+				<div class="comment col-md-10">
+					<div>
+						<a href="#">Harold Henriquez</a> asks for new purchase.
+						<span class="text">Notebook, £1,000</span>
+						<span class="bought">Bought</span>
+					</div>
+					<div>
+						<span class="com_hide">Hide</span>
+						<p><span class="text">I want a new laptop -</span> <a href="#">Harold Henriquez</a></p>
+						<p><span class="text"> No Problem -</span> <a href="#">D. Bruce Sewell</a></p>
+						<p><span class="text"> Done -</span> <a href="#">Shona L. Brown</a> 35 min ago</p>
+
+					</div>
+				</div>
+			</div>
+
+			<!-- 3-й коментарий -->
+			<div class="note row story">
+				<div class="ava col-md-2"><img class="thumbnail" src="img/ava3.png" alt="ava1"></div>
+				<div class="comment col-md-10">
+					<div>
+						<a href="#">Harold Henriquez</a> asks for new purchase.
+						<span class="text">Notebook Asus EEE PC, £1,000</span>
+						<span class="approved">Approved</span>
+					</div>
+					<div>
+						<span class="com_hide">Hide</span>
+						<p><span class="text">I want a new laptop -</span> <a href="#">Harold Henriquez</a></p>
+						<p><span class="text"> No Problem -</span> <a href="#">D. Bruce Sewell</a> <a href="#"><span class="icon_pen">1 min ago</span></a></p> 
+					</div>
+				</div>
+			</div>
+
+			<!-- 4-й коментарий -->
+			<div class="note row story">
+				<div class="ava col-md-2"><img class="thumbnail" src="img/ava4.png" alt="ava1"></div>
+				<div class="comment col-md-10">
+					<div>
+						<a href="#">Daniele Longo</a> sks for new purchase.
+						<span class="text">Notebook, £1,000</span>
+						<span class="approved">Approved</span>
+					</div>
+					<div>
+						<span class="com_hide">Hide</span>
+						<p><span class="text">I want a new laptop -</span> <a href="#">Daniele Longo</a></p>
+						<p><span class="text">Ok. I don’t mind -</span> <a href="#">D. Bruce Sewell</a>  <a href="#"><span class="icon_pen">1 min ago</span></a></p> 
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<script src="my.js"></script>
+</body>
+</html>

@@ -1,0 +1,149 @@
+body {
+	background: url('img/bg.png');
+	font-family: 'Arial';
+}
+
+.navbar1 {
+	border-radius: 0px;
+	margin-bottom: 0px;
+}
+.navbar-header p {
+	font-weight: bold;
+	color: #f6f9f9;
+	margin-left: 50px;
+	margin-top: 14px;
+}
+.navbar1 .btn {
+	background: #f72424;
+	color: #f8efef;
+	font-weight: bold;
+	border-radius: 1px;
+	border: 0px;
+	margin-right: 50px;
+}
+.navbar2 {
+	padding: 0px 50px !important;
+	margin: 0px !important;
+	background: #dbdbdb;
+}
+.navbar2 .dropdown-toggle {
+	padding-left: 0px;
+}
+.navbar2 form div {
+	display: inline-block;
+}
+.navbar2 form .dropdown button {
+	width: 200px;
+	text-align:left;
+	padding-left: 10px;
+}
+.navbar2 form .dropdown span {
+	float:right;
+	margin-top: 10px;
+}
+a.navbar-brand {
+	padding: 0px !important;
+	margin: 0px !important;
+}
+.container-fluid {
+	padding: 0px;
+}
+.looking_for {
+	width: 100% !important;
+}
+.content {
+	height: 100%;
+	margin: 30px 50px;
+}
+.con div{
+	float: left;
+}
+.right_b {
+	width: 215px;
+	height: 100%;
+/*	background: black;*/
+	float: right;
+}
+.right_b img {
+	margin-bottom: 10px;
+	border: 0px;
+}
+.art {
+	margin-bottom: 15px;
+	margin-right: 15px;
+	border: 1px solid #e1e1e1;
+	background: #ffffff !important;
+	position: relative;
+	padding: 10px;
+	height: 100% !important;
+}
+.art h5 {
+	margin: 10px 0px;
+	font-weight: bold;
+	font-size: 1.2em	;
+}
+.art p {
+	margin: 10px 0px;
+	font-size: 12px;
+}
+.art > p {
+	padding-bottom:45px;
+}
+.art div {
+	background: #f7f7f7;
+	color: #b1b1b1;
+	font-size: 0.8em;
+	width: 100%;
+	padding: 10px 10px;
+	position: absolute;
+	bottom: 0;
+	left: 0px;
+}
+.art div p {
+	height: 100%;
+	margin:0;
+}
+.art div p:last-child {
+	font-weight: bold;
+}
+.art1 {
+	width: 215px;
+	background: blue;
+}
+.art2 {
+	width: 215px;
+	background: green;
+}
+.art3 {
+	width: 215px;
+	background: blue;
+}
+.art4 {
+	width: 444px;
+	background: blue;
+}
+.art5 {
+	width: 215px;
+	background: blue;
+}
+.art6 {
+	width: 215px;
+	background: blue;
+}
+.img_small {
+	width: 40px !important;
+	height: 40px;
+	display: inline-block;
+	margin: 0 !important;
+	padding: 0;
+	border: 0px;
+}
+div .img:nth-child(2) {
+	margin-left: 10px !important;
+}
+.yellow {
+	background: #fef5ca !important;
+}
+.yellow div {
+	background: #f5ecc3;
+}
